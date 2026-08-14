@@ -1,6 +1,6 @@
 # iata-city-codes
 
-[![npm version](https://img.shields.io/npm/v/iata-city-codess.svg)](https://www.npmjs.com/package/iata-city-codes)
+[![npm version](https://img.shields.io/npm/v/iata-city-codes.svg)](https://www.npmjs.com/package/iata-city-codes)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/iata-city-codes)](https://bundlephobia.com/package/iata-city-codes)
 [![license](https://img.shields.io/npm/l/iata-city-codes.svg)](./LICENSE)
 [![downloads](https://img.shields.io/npm/dm/iata-city-codes.svg)](https://www.npmjs.com/package/iata-city-codes)
