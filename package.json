@@ -33,6 +33,12 @@
   ],
   "license": "MIT",
   "author": "pouya1364",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pouya1364/iata-city-codes.git"
+  },
+  "homepage": "https://github.com/pouya1364/iata-city-codes#readme",
+  "bugs": "https://github.com/pouya1364/iata-city-codes/issues",
   "devDependencies": {
     "@types/node": "^26.2.0",
     "tsup": "^8.3.5",
