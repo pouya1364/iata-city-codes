@@ -1,0 +1,37 @@
+name: Monthly data refresh
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build:data
+      - run: npm test
+      - id: diff
+        run: |
+          if git diff --quiet -- src/data; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: refresh generated airport/city data"
+          title: "chore: monthly data refresh"
+          body: Automated refresh of `src/data/*.generated.ts` from upstream sources. Review the diff before merging.
+          branch: data-refresh
+          add-paths: src/data

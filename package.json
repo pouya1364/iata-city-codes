@@ -1,0 +1,43 @@
+{
+  "name": "iata-city-codes",
+  "version": "0.1.0",
+  "description": "Map IATA city (metro-area) codes to the airports they group, and back.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build:data": "tsx scripts/build-data.ts",
+    "build": "tsup src/index.ts --format esm,cjs --dts --minify",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "iata",
+    "airport",
+    "city-code",
+    "metro-area",
+    "flights",
+    "aviation"
+  ],
+  "license": "MIT",
+  "author": "pouya1364",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
