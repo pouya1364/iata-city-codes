@@ -7328,9 +7328,9 @@ export const airports: Airport[] = [
   },
   {
     "iata": "CCE",
-    "name": "Grand Case",
-    "cityCode": "SFG",
-    "countryCode": "MF"
+    "name": "Capital International Airport",
+    "cityCode": "CAI",
+    "countryCode": "EG"
   },
   {
     "iata": "CCF",
@@ -11125,6 +11125,12 @@ export const airports: Airport[] = [
     "countryCode": "CI"
   },
   {
+    "iata": "DJT",
+    "name": "President Donald J. Trump International Airport",
+    "cityCode": "PBI",
+    "countryCode": "US"
+  },
+  {
     "iata": "DJU",
     "name": "Djupivogur",
     "cityCode": "DJU",
@@ -11938,6 +11944,12 @@ export const airports: Airport[] = [
     "iata": "DTW",
     "name": "Detroit Metropolitan Wayne County Airport",
     "cityCode": "DTT",
+    "countryCode": "US"
+  },
+  {
+    "iata": "DTX",
+    "name": "McKinney National Airport",
+    "cityCode": "DFW",
     "countryCode": "US"
   },
   {
@@ -18344,6 +18356,12 @@ export const airports: Airport[] = [
     "countryCode": "SE"
   },
   {
+    "iata": "HMX",
+    "name": "Huma Ludingshan Airport",
+    "cityCode": "HMX",
+    "countryCode": "CN"
+  },
+  {
     "iata": "HMY",
     "name": "Seosan Airport",
     "cityCode": "HMY",
@@ -20091,7 +20109,7 @@ export const airports: Airport[] = [
   },
   {
     "iata": "INF",
-    "name": "Newark Liberty International",
+    "name": "In Guezzam Airport",
     "cityCode": "INF",
     "countryCode": "DZ"
   },
@@ -20938,7 +20956,7 @@ export const airports: Airport[] = [
   {
     "iata": "JAE",
     "name": "Shumba Airport",
-    "cityCode": "CIX",
+    "cityCode": "JAE",
     "countryCode": "PE"
   },
   {
@@ -35013,6 +35031,12 @@ export const airports: Airport[] = [
     "countryCode": "NA"
   },
   {
+    "iata": "OQN",
+    "name": "Qoqon Airport",
+    "cityCode": "OQN",
+    "countryCode": "UZ"
+  },
+  {
     "iata": "ORA",
     "name": "Oran",
     "cityCode": "ORA",
@@ -35917,12 +35941,6 @@ export const airports: Airport[] = [
     "name": "Paro Airport",
     "cityCode": "PBH",
     "countryCode": "BT"
-  },
-  {
-    "iata": "PBI",
-    "name": "Palm Beach International Airport",
-    "cityCode": "PBI",
-    "countryCode": "US"
   },
   {
     "iata": "PBJ",

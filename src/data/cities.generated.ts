@@ -9041,7 +9041,8 @@ export const cities: StoredCity[] = [
     "name": "Cairo International Airport",
     "countryCode": "EG",
     "airportCodes": [
-      "CAI"
+      "CAI",
+      "CCE"
     ]
   },
   {
@@ -10585,8 +10586,7 @@ export const cities: StoredCity[] = [
     "name": "Cornel Ruiz Airport",
     "countryCode": "PE",
     "airportCodes": [
-      "CIX",
-      "JAE"
+      "CIX"
     ]
   },
   {
@@ -13787,6 +13787,7 @@ export const cities: StoredCity[] = [
       "AFW",
       "DAL",
       "DFW",
+      "DTX",
       "FWH",
       "RBD"
     ]
@@ -23294,6 +23295,14 @@ export const cities: StoredCity[] = [
     ]
   },
   {
+    "code": "HMX",
+    "name": "Huma Ludingshan Airport",
+    "countryCode": "CN",
+    "airportCodes": [
+      "HMX"
+    ]
+  },
+  {
     "code": "HMY",
     "name": "Seosan Airport",
     "countryCode": "KR",
@@ -25560,7 +25569,7 @@ export const cities: StoredCity[] = [
   },
   {
     "code": "INF",
-    "name": "Newark Liberty International",
+    "name": "In Guezzam Airport",
     "countryCode": "DZ",
     "airportCodes": [
       "INF"
@@ -26657,6 +26666,14 @@ export const cities: StoredCity[] = [
     "countryCode": "US",
     "airportCodes": [
       "JAC"
+    ]
+  },
+  {
+    "code": "JAE",
+    "name": "Shumba Airport",
+    "countryCode": "PE",
+    "airportCodes": [
+      "JAE"
     ]
   },
   {
@@ -44679,6 +44696,14 @@ export const cities: StoredCity[] = [
     ]
   },
   {
+    "code": "OQN",
+    "name": "Qoqon Airport",
+    "countryCode": "UZ",
+    "airportCodes": [
+      "OQN"
+    ]
+  },
+  {
     "code": "ORA",
     "name": "Oran",
     "countryCode": "AR",
@@ -45847,11 +45872,11 @@ export const cities: StoredCity[] = [
   },
   {
     "code": "PBI",
-    "name": "Palm Beach County Park",
+    "name": "President Donald J. Trump International Airport",
     "countryCode": "US",
     "airportCodes": [
-      "LNA",
-      "PBI"
+      "DJT",
+      "LNA"
     ]
   },
   {
@@ -53129,10 +53154,9 @@ export const cities: StoredCity[] = [
   },
   {
     "code": "SFG",
-    "name": "Grand Case",
+    "name": "Esperance Airport",
     "countryCode": "MF",
     "airportCodes": [
-      "CCE",
       "SFG"
     ]
   },
